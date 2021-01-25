@@ -7,6 +7,11 @@ trigger:
 - main
 
 variables:
+ # the name of the service connection that you created above
+  serviceConnectionToAzure: newConn
+  # the name of your web app here is the same one you used above
+  # when you created the web app using the Azure CLI
+  appName: MyAZFunApp
 
   # Azure Resource Manager connection created during pipeline creation
   azureSubscription: 'd2010099-f187-4273-823e-3e8003cf3a0d'
